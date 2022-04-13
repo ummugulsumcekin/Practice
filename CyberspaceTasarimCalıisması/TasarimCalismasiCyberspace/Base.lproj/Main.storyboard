@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gkS-di-4kv">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TasarimCalismasiCyberspace" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue Reflection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19c-1a-lZY">
+                                <rect key="frame" x="81" y="104" width="252" height="43"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" name="yaziRenk1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resim" translatesAutoresizingMaskIntoConstraints="NO" id="mc5-Pm-6EF">
+                                <rect key="frame" x="47" y="163" width="320" height="213.5"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minted on Apr 12, 2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyz-Qb-fXP">
+                                <rect key="frame" x="149" y="392.5" width="116" height="13.5"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="12"/>
+                                <color key="textColor" name="yaziRenk1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Owned by @Tezos #0899" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4D-hX-aEp">
+                                <rect key="frame" x="113.5" y="422" width="187" height="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <color key="textColor" name="yaziRenk1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50e-08-SDd">
+                                <rect key="frame" x="16" y="791" width="116.5" height="55"/>
+                                <color key="backgroundColor" name="anaRenk"/>
+                                <color key="tintColor" name="yaziRenk1"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">Current bid
+0.33 ETH</string>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktR-n8-aKq">
+                                <rect key="frame" x="299" y="791" width="99" height="55"/>
+                                <color key="backgroundColor" name="yaziRenk1"/>
+                                <color key="tintColor" name="anaRenk"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Place Bid">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Everything has a good or bad reflection." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXt-32-sEu">
+                                <rect key="frame" x="43" y="458" width="328" height="22"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" name="yaziRenk1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It's your turn to have the best blue reflection!" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7i5-fp-sza">
+                                <rect key="frame" x="22" y="496" width="370" height="22"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" name="yaziRenk1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="anaRenk"/>
+                        <constraints>
+                            <constraint firstItem="iyz-Qb-fXP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2vQ-Pi-Mxr"/>
+                            <constraint firstItem="19c-1a-lZY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="6SN-bA-96K"/>
+                            <constraint firstItem="QXt-32-sEu" firstAttribute="top" secondItem="t4D-hX-aEp" secondAttribute="bottom" constant="16" id="6ys-cZ-NqX"/>
+                            <constraint firstItem="19c-1a-lZY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CD7-l9-axK"/>
+                            <constraint firstItem="mc5-Pm-6EF" firstAttribute="top" secondItem="19c-1a-lZY" secondAttribute="bottom" constant="16" id="CHV-P6-VTG"/>
+                            <constraint firstItem="mc5-Pm-6EF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HmW-J2-PbI"/>
+                            <constraint firstItem="t4D-hX-aEp" firstAttribute="top" secondItem="iyz-Qb-fXP" secondAttribute="bottom" constant="16" id="LJx-20-G3p"/>
+                            <constraint firstItem="mc5-Pm-6EF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QVM-dl-ec3"/>
+                            <constraint firstItem="iyz-Qb-fXP" firstAttribute="top" secondItem="mc5-Pm-6EF" secondAttribute="bottom" constant="16" id="Xk3-Hu-SpG"/>
+                            <constraint firstAttribute="bottom" secondItem="50e-08-SDd" secondAttribute="bottom" constant="50" id="abT-EC-Jdp"/>
+                            <constraint firstAttribute="bottom" secondItem="ktR-n8-aKq" secondAttribute="bottom" constant="50" id="c7F-4Y-65V"/>
+                            <constraint firstItem="t4D-hX-aEp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g9C-mH-Rbc"/>
+                            <constraint firstItem="50e-08-SDd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="k2N-oq-Ny0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ktR-n8-aKq" secondAttribute="trailing" constant="16" id="nHi-5f-dUe"/>
+                            <constraint firstItem="QXt-32-sEu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pGB-34-NNx"/>
+                            <constraint firstItem="ktR-n8-aKq" firstAttribute="centerY" secondItem="50e-08-SDd" secondAttribute="centerY" id="rfT-kU-9t0"/>
+                            <constraint firstItem="7i5-fp-sza" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uRY-cO-QbA"/>
+                            <constraint firstItem="7i5-fp-sza" firstAttribute="top" secondItem="QXt-32-sEu" secondAttribute="bottom" constant="16" id="v49-E6-ERT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="DfG-50-hYH"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="879.71014492753625" y="54.910714285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oSl-BU-ozH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gkS-di-4kv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KFM-ek-VUY">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="rIe-rt-anV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ody-DN-9m4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-197" y="55"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="resim" width="320" height="213.5"/>
+        <namedColor name="anaRenk">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="yaziRenk1">
+            <color red="0.067000001668930054" green="0.17299999296665192" blue="0.32499998807907104" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

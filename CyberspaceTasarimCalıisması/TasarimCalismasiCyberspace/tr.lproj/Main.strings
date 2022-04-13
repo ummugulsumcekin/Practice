@@ -1,0 +1,25 @@
+
+/* Class = "UILabel"; text = "Blue Reflection"; ObjectID = "19c-1a-lZY"; */
+"19c-1a-lZY.text" = "Mavi Yansıma";
+
+/* Class = "UIButton"; configuration.title = "Current bid\n0.33 ETH"; ObjectID = "50e-08-SDd"; */
+"50e-08-SDd.configuration.title" = "Mevcut Teklif\n14.607₺";
+
+
+
+/* Class = "UILabel"; text = "It's your turn to have the best blue reflection!"; ObjectID = "7i5-fp-sza"; */
+"7i5-fp-sza.text" = "En iyi mavi yansımaya sahip olma sırası sende!";
+
+/* Class = "UILabel"; text = "Everything has a good or bad reflection."; ObjectID = "QXt-32-sEu"; */
+"QXt-32-sEu.text" = "Herşeyin iyi ya da kötü yansıması vardır.";
+
+/* Class = "UILabel"; text = "Minted on Apr 12, 2022"; ObjectID = "iyz-Qb-fXP"; */
+"iyz-Qb-fXP.text" = "12 Nisan 2022 'de tasarlandı ";
+
+/* Class = "UIButton"; configuration.title = "Place Bid"; ObjectID = "ktR-n8-aKq"; */
+"ktR-n8-aKq.configuration.title" = "Teklif Ver";
+
+
+
+/* Class = "UILabel"; text = "Owned by @Tezos #0899"; ObjectID = "t4D-hX-aEp"; */
+"t4D-hX-aEp.text" = " Eser Sahibi @Tezos #0899";
